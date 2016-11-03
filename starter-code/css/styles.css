@@ -1,0 +1,382 @@
+header {
+	width: 700px;
+	height: 100px;
+	padding: 10px;
+	background-color: #005b8e;
+	margin: 0 auto;
+}
+
+#bannerTitleBox {
+	width: 150px;
+	height: 100px;
+	float: left;
+	/*padding: 8px 0 0 0;*/
+}
+
+#bannerTitle {
+	font-size: 24px;
+	text-align: center;
+	margin: 20px 25px;
+	color: #ccc;
+	font-weight: 600;
+	text-align: left;
+	line-height: 120%;
+}
+
+#mwLogoBox {
+	float: left;
+	width: 400px;
+}
+
+#mwLogo {
+	font-size: 120px;
+	text-align: center;
+	color: #4ebfff;
+	letter-spacing: -4px;
+}
+
+nav {
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: right;
+	float: right;
+	padding: 25px;
+	line-height: 150%;
+}
+
+/*.navBox {
+	width: 75px;
+	height: 30px;
+}*/
+
+#navAbout {
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	padding: 9px 0 0 0;
+}
+
+#navPort {
+	position: absolute;
+	left: 75px;
+	top: 0;
+	text-align: center;
+	padding: 9px 0 0 0;
+}
+
+/*span {
+	width: 75px;
+	height: 30px;
+}*/
+
+#topNav {
+	width: 75px;
+	height: 30px;
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+	color: #ddd;
+}
+
+a:hover {
+	font-weight: 600;
+}
+
+a:active {
+	color: #4ebfff;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #ddd;
+}
+
+#spacer1 {
+	width: 700px;
+	height: 5px;
+	background-color: #4ebfff;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#spacer2 {
+	width: 700px;
+	height: 5px;
+	background-color: #005b8e;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#aboutMain {
+	width: 700px;
+	height: 240px;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #4ebfff;
+	position: relative;
+}
+
+#portMain {
+	width: 700px;
+	height: 2220px;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #4ebfff;
+	position: relative;
+}
+
+/*.container {
+	width: 500px;
+	height: 300px;
+	padding: 10px;
+	background-color: red;
+	position: relative;
+}*/
+
+#subhead {
+	width: 700px;
+	height: 30px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#aboutMeSub {
+	text-align: center;
+	margin: 5px;
+	color: #005b8e;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+#portSub {
+	text-align: center;
+	margin: 5px;
+	color: #005b8e;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.mainBox {
+	background-color: purple;
+}
+
+#aboutBox {
+	background-color: #005b8e;
+	color: #111;
+	width: 470px;
+	height: 189px;
+	position: absolute;
+	left: 15px;
+	top: 50px;
+	border-radius: 10px;
+}
+
+#aboutMeText {
+	margin: 30px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #ccc;
+	line-height: 140%;
+}
+
+#portBox {
+	background-color: #005b8e;
+	color: #111;
+	width: 660px;
+	height: 140px;
+	position: absolute;
+	left: 15px;
+	top: 50px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#portText {
+	margin: 25px;
+	font-weight: 300;
+	color: #ccc;
+	line-height: 140%;
+}
+
+#imgBox {
+	background-color: #005b8e;
+	color: #ddd;
+	width: 200px;
+	height: 170px;
+	position: absolute;
+	right: 15px;
+	top: 50px;
+	border-radius: 10px;
+}
+
+#aboutImg {
+	width: 200px;
+	border-radius: 10px;
+}
+
+.expSub {
+	font-weight: 600;
+	text-align: center;
+	color: #eee;
+}
+
+#relExpBox {
+	background-color: #005b8e;
+	color: #111;
+	width: 660px;
+	height: 1790px;
+	position: absolute;
+	left: 15px;
+	top: 240px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#relaxrBox {
+	margin: 15px 0;
+	height: 580px;
+}
+
+.featTextBox {
+/*	background-color: #ccc;
+*/	border-radius: 10px;
+	color: #ccc;
+	padding: 15px;
+}
+
+.featText {
+	line-height: 140%;
+	font-weight: 100;
+	margin: 0 0 20px 0;
+}
+
+span {
+	font-weight: 600;
+}
+
+#relaxrImg {
+	width: 630px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border-radius: 10px;
+}
+
+hr {
+	margin: 25px 0 0 0;
+}
+
+#startupBox {
+	margin: 15px 0;
+	height: 600px;
+}
+
+#startupImg {
+	width: 630px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border-radius: 10px;
+}
+
+#citipixBox {
+	margin: 15px 0;
+	height: 335px;
+}
+
+#citipixImg {
+	width: 630px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	border-radius: 10px;
+}
+
+#educationBox {
+	background-color: #005b8e;
+	color: #111;
+	width: 660px;
+	height: 110px;
+	position: absolute;
+	left: 15px;
+	top: 2080px;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+#educationList {
+	list-style-type: none;
+	margin: 15px 0 0 190px;
+	font-weight: 100;
+	color: #ccc;
+	line-height: 160%;
+}
+
+footer {
+	width: 700px;
+	height: 100px;
+	padding: 10px;
+	background-color: #0099ee;
+	position: relative;
+	margin: 0 auto;
+}
+
+#footerNavBox {
+	position: absolute;
+	width: 700px;
+	top: 10px;
+	left: 8px;
+}
+
+.footerNavText {
+	font-size: 14px;
+	text-align: center;
+	color: #ddd;
+}
+
+#logoBox {
+	width: 700px;
+	height: 40px;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	text-align: center;
+}
+
+#copyrightBox {
+	width: 700px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+#copyright {
+  font-size: 10px;
+  color: #004c76;
+  font-weight: 600;
+}
+
+#twitterLogo {
+  display: inline-block;
+  margin: 20px 10px 30px;
+}
+
+#fbLogo {
+  display: inline-block;
+  margin: 15px 10px;
+}
+
+.light {
+  font-weight: 100;
+}
+.semibold {
+  font-weight: 500;
+}
+.extrabold {
+  font-weight: 700;
+}
+
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+}
